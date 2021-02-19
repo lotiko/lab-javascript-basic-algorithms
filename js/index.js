@@ -240,7 +240,6 @@ for (const phrase of phrasesToCheck) {
   } else {
     middleOfStr = Math.floor(onlyCharactersOfPhrase.length / 2);
   }
-  console.log(middleOfStr);
   let i = 0;
   let isPalindrome = true;
   while (i <= middleOfStr) {
